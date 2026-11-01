@@ -1,0 +1,12 @@
+G04 Synthetic demo outline only - not production hardware*
+%FSLAX46Y46*%
+%MOMM*%
+%TF.FileFunction,Profile,NP*%
+%ADD10C,0.100*%
+D10*
+X0Y0D02*
+X40000000Y0D01*
+X40000000Y30000000D01*
+X0Y30000000D01*
+X0Y0D01*
+M02*

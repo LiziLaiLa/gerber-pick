@@ -1,0 +1,9 @@
+M48
+; Synthetic invented drill data
+METRIC,TZ
+T01C1.000
+%
+T01
+X3.000Y3.000
+X37.000Y27.000
+M30

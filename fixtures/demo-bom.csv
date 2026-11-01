@@ -1,0 +1,5 @@
+References,Value,Footprint,MPN,Quantity,DNP
+"R1,R2",10k,R_0603,SYN-RES-10K,2,No
+C1,100nF,C_0603,SYN-CAP-100N,1,No
+U1,Demo IC,QFN-DEMO-4,SYN-DEMO-IC,1,No
+D1,Demo LED,LED_0603,SYN-LED,1,Yes

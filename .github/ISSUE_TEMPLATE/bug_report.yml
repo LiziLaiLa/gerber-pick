@@ -1,0 +1,29 @@
+name: Board import or alignment bug
+description: Report a reproducible Gerber, table or coordinate problem.
+body:
+  - type: input
+    id: cad
+    attributes:
+      label: CAD tool and export settings
+      placeholder: e.g. KiCad version, Gerber units and placement origin
+    validations:
+      required: true
+  - type: textarea
+    id: behavior
+    attributes:
+      label: Expected and actual behavior
+      description: Include the error message and a reference/side if alignment is wrong.
+    validations:
+      required: true
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: Minimal reproduction
+      description: Add sanitized files you are allowed to share, or steps using the bundled synthetic demo. Never post confidential boards.
+  - type: checkboxes
+    id: origin
+    attributes:
+      label: Before reporting
+      options:
+        - label: I checked that the Gerber and placement files use the same origin and known units.
+        - label: Any attached files are safe and licensed for public sharing.

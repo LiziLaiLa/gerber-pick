@@ -1,0 +1,16 @@
+G04 Synthetic demo bottom copper - all locations invented*
+%FSLAX46Y46*%
+%MOMM*%
+%TF.FileFunction,Copper,L2,Bot*%
+%ADD10C,1.200*%
+D10*
+%TO.P,C1,1*%
+X14000000Y20000000D03*
+%TO.P,C1,2*%
+X16000000Y20000000D03*
+%TO.P,D1,1*%
+X29000000Y22000000D03*
+%TO.P,D1,2*%
+X31000000Y22000000D03*
+%TD*%
+M02*
